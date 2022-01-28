@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/button"
+    android:elevation="15dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:background="@color/text"
+        android:backgroundTint="@color/cardview_dark_background">
+
+        <TextView
+            android:id="@+id/admin_product_price"
+            android:layout_width="162dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview"
+            android:gravity="center"
+            android:text="Product Price"
+            android:textColor="#FFFF"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/admin_product_quantity"
+            android:layout_width="160dp"
+            android:layout_height="34dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/textview"
+            android:gravity="center"
+            android:text="Quantity"
+            android:textColor="#FFFF"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/admin_product_name"
+            android:layout_width="337dp"
+            android:layout_height="38dp"
+            android:layout_below="@id/admin_product_price"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/textview"
+            android:gravity="center"
+            android:text="Product Name"
+            android:textColor="#FFFF"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="173dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/admin_product_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/textview"
+            android:gravity="center"
+            android:text="date"
+            android:textColor="#FFFF"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="166dp"
+            android:layout_height="41dp"
+            android:layout_below="@id/admin_product_name"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/textview"
+            android:gravity="center"
+
+            android:text="Time"
+            android:textColor="#FFFF"
+
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/admin_Name"
+            android:layout_width="174dp"
+            android:layout_height="33dp"
+            android:layout_below="@id/date"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/textview"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="#FFFF"
+            android:textSize="17sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/order_phone_no"
+            android:layout_width="167dp"
+            android:layout_height="32dp"
+            android:layout_below="@id/date"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/textview"
+            android:gravity="center"
+            android:text="Phone No"
+            android:textColor="#FFFF"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/admin_address"
+            android:layout_width="346dp"
+            android:layout_height="39dp"
+            android:layout_below="@id/date"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/textview"
+            android:gravity="center"
+            android:text="Address"
+            android:textColor="#FFFF"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/admin_state"
+            android:layout_width="348dp"
+            android:layout_height="41dp"
+            android:layout_below="@id/admin_address"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/textview"
+            android:gravity="center"
+            android:text="State"
+            android:textColor="#FFFF"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

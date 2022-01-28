@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product_Set">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/product_image"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/potato" />
+
+    <TextView
+        android:id="@+id/edn_name"
+        android:layout_width="329dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:paddingTop="15dp"
+        android:background="@drawable/button"
+        android:hint="Product Name"
+        android:textAlignment="center"
+        android:textSize="25sp"
+         />
+
+    <EditText
+        android:id="@+id/ed_price"
+        android:layout_width="333dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/button"
+        android:hint="Set the Product Price"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/ed_quanlity"
+        android:layout_width="338dp"
+        android:layout_height="67dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/button"
+        android:hint="Prouct Quantity per kg"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/buttons"
+        android:text="Add the Product"
+        android:textColor="@color/text"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

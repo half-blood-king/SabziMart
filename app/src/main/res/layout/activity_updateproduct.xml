@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateproduct">
+    <ImageView
+        android:id="@+id/prouduct_set_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/product_set_name"
+        android:layout_width="248dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/prouduct_set_image"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/textview"
+        android:gravity="center"
+        android:text="Product name"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/product_set_price"
+        android:layout_width="248dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/product_set_name"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/textview"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:hint="Product Price"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/product_set_quantity"
+        android:layout_width="248dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/product_set_price"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/textview"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:hint="Product Price"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/set_productset_bt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="Set Products"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".conifirmorder">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="10dp"
+        android:id="@+id/logo_conifirm"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/logo_conifirm"
+        android:background="@drawable/textview"
+        android:textSize="16sp"
+        android:text="Total Price"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/conifirm_total_price"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:textSize="16sp"
+        android:hint="Customer Name"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/conifirm_total_price"
+        android:id="@+id/conifirm_Cname"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:textSize="16sp"
+        android:hint="Customer Phone"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+        android:layout_below="@id/conifirm_Cname"
+        android:id="@+id/conifirm_Cphone"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:textSize="16sp"
+        android:hint="Customer Houseno"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:layout_below="@id/conifirm_Cphone"
+        android:id="@+id/conifirm_Chouseno"/>
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:textSize="16sp"
+        android:hint="address"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:layout_below="@id/conifirm_Chouseno"
+        android:id="@+id/conifirm_Caddress"/>
+
+    <Button
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conifirm_Caddress"
+        android:id="@+id/bt_confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:text="Conifirm"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        />
+
+
+
+
+</RelativeLayout>

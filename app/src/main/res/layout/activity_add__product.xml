@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Product">
+
+    <TextView
+        android:id="@+id/tw_add"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Add Product"
+        android:backgroundTint="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="26sp" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tw_add"
+    android:layout_marginTop="15dp"
+    android:id="@+id/liner1"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/potato"
+        android:tag="potato"
+        android:layout_width="200dp"
+        android:layout_height="146dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:onClick="ProductSelect"
+        android:src="@drawable/potato"
+        android:clickable="true"
+        android:background="@drawable/images"/>
+
+    <ImageView
+        android:id="@+id/onion"
+        android:tag="onion"
+        android:background="@drawable/images"
+        android:layout_width="200dp"
+        android:layout_height="144dp"
+        android:onClick="ProductSelect"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:src="@drawable/onion"
+        />
+    <ImageView
+        android:id="@+id/carrot"
+        android:tag="carrot"
+        android:layout_width="200dp"
+        android:layout_height="144dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="ProductSelect"
+        android:layout_weight="1"
+        android:background="@drawable/images"
+        android:src="@drawable/carrot"
+       />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:id="@+id/liner2"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/garlic"
+            android:tag="garlic"
+            android:layout_width="200dp"
+            android:layout_height="146dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/garlic"
+            android:onClick="ProductSelect"
+            android:clickable="true"
+            android:background="@drawable/images" />
+
+        <ImageView
+            android:id="@+id/peas"
+            android:tag="peas"
+            android:background="@drawable/images"
+            android:layout_width="200dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:onClick="ProductSelect"
+            android:src="@drawable/matr"
+
+            />
+        <ImageView
+            android:id="@+id/Brussel"
+            android:layout_width="200dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:onClick="ProductSelect"
+            android:background="@drawable/images"
+            android:src="@drawable/bandgobli"
+            android:tag="brussel sprouts"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:id="@+id/liner3"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/green"
+            android:tag="green pepper "
+            android:layout_width="200dp"
+            android:layout_height="146dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/greenpaper"
+            android:clickable="true"
+            android:onClick="ProductSelect"
+            android:background="@drawable/images"
+            />
+
+        <ImageView
+            android:id="@+id/tomato"
+            android:tag="tomato"
+            android:background="@drawable/images"
+            android:layout_width="200dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/tomato"
+            android:onClick="ProductSelect"
+            />
+        <ImageView
+            android:id="@+id/Gobli"
+            android:tag="broccoli"
+            android:layout_width="200dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/images"
+            android:src="@drawable/gobi"
+            android:onClick="ProductSelect"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner4"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_marginTop="550dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/chilli"
+            android:layout_width="200dp"
+            android:layout_height="146dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/images"
+            android:clickable="true"
+            android:onClick="ProductSelect"
+            android:src="@drawable/chilli"
+            android:tag="Chilli" />
+
+        <ImageView
+            android:id="@+id/eggplant"
+            android:layout_width="200dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/images"
+            android:onClick="ProductSelect"
+            android:src="@drawable/eggplant"
+            android:tag="eggplant" />
+
+        <ImageView
+            android:id="@+id/cumber"
+            android:layout_width="200dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/images"
+            android:onClick="ProductSelect"
+            android:src="@drawable/cumber"
+            android:tag="cumcber" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
